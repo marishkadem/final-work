@@ -18,4 +18,6 @@ for (int i = 0; i < size; i++)
     string element = Convert.ToString(Console.ReadLine());
     arrayStrings[i] = element;
 }
-
+string[] arrayFinal = new string[size];
+int len = 3;
+int pos = 0;
